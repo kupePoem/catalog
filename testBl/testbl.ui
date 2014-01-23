@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>testBlClass</class>
+ <widget class="QMainWindow" name="testBlClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>693</width>
+    <height>496</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>testBl</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>693</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuDataBase">
+     <property name="title">
+      <string>DataBase</string>
+     </property>
+     <addaction name="actionNew_DataBase"/>
+     <addaction name="actionDelete_DataBase"/>
+    </widget>
+    <addaction name="menuDataBase"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuPlot">
+    <property name="title">
+     <string>Plot</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSpectral">
+    <property name="title">
+     <string>Spectral</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuCatalog">
+    <property name="title">
+     <string>Catalog</string>
+    </property>
+    <addaction name="actionAdd_Region"/>
+    <addaction name="actionAdd_Drill"/>
+    <addaction name="actionAdd_Core"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuPlot"/>
+   <addaction name="menuSpectral"/>
+   <addaction name="menuCatalog"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNew_DataBase">
+   <property name="text">
+    <string>New DataBase</string>
+   </property>
+  </action>
+  <action name="actionAdd_Region">
+   <property name="text">
+    <string>Add Region</string>
+   </property>
+  </action>
+  <action name="actionAdd_Drill">
+   <property name="text">
+    <string>Add Drill</string>
+   </property>
+  </action>
+  <action name="actionAdd_Core">
+   <property name="text">
+    <string>Add Core</string>
+   </property>
+  </action>
+  <action name="actionDelete_DataBase">
+   <property name="text">
+    <string>Delete DataBase</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="testbl.qrc"/>
+ </resources>
+ <connections/>
+</ui>

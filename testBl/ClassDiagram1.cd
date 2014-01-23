@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ui_testBlClass" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgAAAAAAEAQACAAABAAIAAAAQAIEAAgAAABAAAgAA=</HashCode>
+      <FileName>GeneratedFiles\ui_testbl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::testBlClass" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_testbl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCoreTreeWidget">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>CoreTreeWidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDataBaseMng">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAACAAAAgAAACAAAQAAAEAAAEAAAAAAAAA=</HashCode>
+      <FileName>DataBaseMng.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDataMng" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAgAAACAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>IDataMng.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDbCon" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAgAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>IDataMng.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICoreDataBase" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAARAAAAAAAAAQAAAwABAAAQAAAAAgAAQAA=</HashCode>
+      <FileName>IDataMng.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSqlCoreDataBase" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABDABCAAAgARgAAAAAAACQAAiwQBAFAQAIAAAgAAQAA=</HashCode>
+      <FileName>SqlCoreDataBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTreeItem" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TreeItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="testBl" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACBBAEAAAAAAACAAAACAAIEAAAAiAAAAAAAA=</HashCode>
+      <FileName>testbl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="stRegion" Collapsed="true">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAEAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDataMng.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="stDrill" Collapsed="true">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAEAABAEAAAAAAAAAAEAQAAAAAAAAAA=</HashCode>
+      <FileName>IDataMng.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="stCore">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIICQAAAAAAAAAAAAAAAEAAAAAAAAEQAA=</HashCode>
+      <FileName>IDataMng.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="St_CoreSkData">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SqlCoreDataBase.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="en_DataBaseType" Collapsed="true">
+    <Position X="6" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDataMng.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>
